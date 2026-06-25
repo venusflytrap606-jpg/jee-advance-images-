@@ -1,0 +1,911 @@
+{
+  "exam": "JEE Advanced 2025",
+  "paper": "Paper 1",
+  "year": 2025,
+  "subjects": [
+    {
+      "subject": "Mathematics",
+      "sections": [
+        {
+          "section": 1,
+          "title": "Single Correct Answer",
+          "marking_scheme": {
+            "correct": 3,
+            "incorrect": -1,
+            "unattempted": 0
+          },
+          "question_type": "single_correct",
+          "questions": [
+            {
+              "id": "math_s1_q1",
+              "question_number": 1,
+              "question": "Let ℝ denote the set of all real numbers. Let aᵢ, bᵢ ∈ ℝ for i ∈ {1, 2, 3}. Define the functions f: ℝ → ℝ, g: ℝ → ℝ, and h: ℝ → ℝ by\n\nf(x) = a₁ + 10x + a₂x² + a₃x³ + x⁴\ng(x) = b₁ + 3x + b₂x² + b₃x³ + x⁴\nh(x) = f(x + 1) − g(x + 2)\n\nIf f(x) ≠ g(x) for every x ∈ ℝ, then the coefficient of x³ in h(x) is",
+              "options": {
+                "A": "8",
+                "B": "2",
+                "C": "−4",
+                "D": "−6"
+              },
+              "correct_answer": "C",
+              "has_figure": false
+            },
+            {
+              "id": "math_s1_q2",
+              "question_number": 2,
+              "question": "Three students S₁, S₂, and S₃ are given a problem to solve. Consider the following events:\n\nU: At least one of S₁, S₂, and S₃ can solve the problem\nV: S₁ can solve the problem, given that neither S₂ nor S₃ can solve the problem\nW: S₂ can solve the problem and S₃ cannot solve the problem\nT: S₃ can solve the problem\n\nFor any event E, let P(E) denote the probability of E. If P(U) = 1/2, P(V) = 1/10, and P(W) = 1/12, then P(T) is equal to",
+              "options": {
+                "A": "13/36",
+                "B": "1/3",
+                "C": "19/60",
+                "D": "1/4"
+              },
+              "correct_answer": "D",
+              "has_figure": false
+            },
+            {
+              "id": "math_s1_q3",
+              "question_number": 3,
+              "question": "Let ℝ denote the set of all real numbers. Define the function f: ℝ → ℝ by\n\nf(x) = (2 − 2x² − x² sin(1/x))  if x ≠ 0\nf(x) = 2                           if x = 0\n\nThen which one of the following statements is TRUE?",
+              "options": {
+                "A": "The function f is NOT differentiable at x = 0",
+                "B": "There is a positive real number δ, such that f is a decreasing function on the interval (0, δ)",
+                "C": "For any positive real number δ, the function f is NOT an increasing function on the interval (−δ, 0)",
+                "D": "x = 0 is a point of local minima of f"
+              },
+              "correct_answer": "B",
+              "has_figure": false
+            },
+            {
+              "id": "math_s1_q4",
+              "question_number": 4,
+              "question": "Consider the matrix P = diag(2, 2, 3) (a 3×3 diagonal matrix with entries 2, 2, 3).\n\nLet the transpose of a matrix X be denoted by Xᵀ. Then the number of 3×3 invertible matrices Q with integer entries, such that Q⁻¹ = Qᵀ and PQ = QP, is",
+              "options": {
+                "A": "32",
+                "B": "8",
+                "C": "16",
+                "D": "24"
+              },
+              "correct_answer": "C",
+              "has_figure": false
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "title": "One or More Correct Answers",
+          "marking_scheme": {
+            "all_correct": 4,
+            "partial_3_of_4_correct": 3,
+            "partial_2_chosen_both_correct": 2,
+            "partial_1_chosen_correct": 1,
+            "incorrect": -2,
+            "unattempted": 0
+          },
+          "question_type": "multi_correct",
+          "questions": [
+            {
+              "id": "math_s2_q5",
+              "question_number": 5,
+              "question": "Let L₁ be the line of intersection of the planes given by the equations\n2x + 3y + z = 4 and x + 2y + z = 5.\nLet L₂ be the line passing through the point P(2, −1, 3) and parallel to L₁. Let M denote the plane given by the equation 2x + y − 2z = 6.\nSuppose that the line L₂ meets the plane M at the point Q. Let R be the foot of the perpendicular drawn from P to the plane M.\nThen which of the following statements is (are) TRUE?",
+              "options": {
+                "A": "The length of the line segment PQ is 9√3",
+                "B": "The length of the line segment QR is 15",
+                "C": "The area of △PQR is (3/2)√234",
+                "D": "The acute angle between the line segments PQ and PR is cos⁻¹(1/(2√3))"
+              },
+              "correct_answer": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "has_figure": false
+            },
+            {
+              "id": "math_s2_q6",
+              "question_number": 6,
+              "question": "Let ℕ denote the set of all natural numbers, and ℤ denote the set of all integers. Consider the functions f: ℕ → ℤ and g: ℤ → ℕ defined by\n\nf(n) = (n + 1)/2  if n is odd\nf(n) = (4 − n)/2  if n is even\n\ng(n) = 3 + 2n  if n ≥ 0\ng(n) = −2n     if n < 0\n\nDefine (g∘f)(n) = g(f(n)) for all n ∈ ℕ, and (f∘g)(n) = f(g(n)) for all n ∈ ℤ.\nThen which of the following statements is (are) TRUE?",
+              "options": {
+                "A": "g∘f is NOT one-one and g∘f is NOT onto",
+                "B": "f∘g is NOT one-one but f∘g is onto",
+                "C": "g is one-one and g is onto",
+                "D": "f is NOT one-one but f is onto"
+              },
+              "correct_answer": [
+                "B",
+                "C",
+                "D"
+              ],
+              "has_figure": false
+            },
+            {
+              "id": "math_s2_q7",
+              "question_number": 7,
+              "question": "Let ℝ denote the set of all real numbers. Let z₁ = 1 + 2i and z₂ = 3i be two complex numbers, where i = √(−1). Let\nS = {(x, y) ∈ ℝ × ℝ : |x + iy − z₁| = 2|x + iy − z₂|}.\nThen which of the following statements is (are) TRUE?",
+              "options": {
+                "A": "S is a circle with centre (−1/3, 10/3)",
+                "B": "S is a circle with centre (1/3, 8/3)",
+                "C": "S is a circle with radius √2/3",
+                "D": "S is a circle with radius 2√2/3"
+              },
+              "correct_answer": [
+                "A",
+                "D"
+              ],
+              "has_figure": false
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "title": "Numerical Answer Type",
+          "marking_scheme": {
+            "correct": 4,
+            "incorrect": 0,
+            "unattempted": 0
+          },
+          "question_type": "numerical",
+          "questions": [
+            {
+              "id": "math_s3_q8",
+              "question_number": 8,
+              "question": "Let the set of all relations R on the set {a, b, c, d, e, f}, such that R is reflexive and symmetric, and R contains exactly 10 elements, be denoted by S.\nThen the number of elements in S is",
+              "correct_answer": 15,
+              "has_figure": false
+            },
+            {
+              "id": "math_s3_q9",
+              "question_number": 9,
+              "question": "For any two points M and N in the XY-plane, let MN⃗ denote the vector from M to N, and 0⃗ denote the zero vector. Let P, Q and R be three distinct points in the XY-plane. Let S be a point inside the triangle △PQR such that\nSP⃗ + 5SQ⃗ + 6SR⃗ = 0⃗.\nLet E and F be the mid-points of the sides PR and QR, respectively. Then the value of\n(length of line segment EF) / (length of line segment ES) is",
+              "correct_answer": 2.5,
+              "has_figure": false
+            },
+            {
+              "id": "math_s3_q10",
+              "question_number": 10,
+              "question": "Let S be the set of all seven-digit numbers that can be formed using the digits 0, 1 and 2. For example, 2210222 is in S, but 0210222 is NOT in S.\nThen the number of elements x in S such that at least one of the digits 0 and 1 appears exactly twice in x, is equal to",
+              "correct_answer": null,
+              "correct_answer_note": "See official answer key",
+              "has_figure": false
+            },
+            {
+              "id": "math_s3_q11",
+              "question_number": 11,
+              "question": "Let α and β be the real numbers such that\nlim(x→0) (1/x³) × [(α/2)∫₀ˣ (1/(1 − t²)) dt + βx cos x] = 2.\nThen the value of α + β is",
+              "correct_answer": null,
+              "correct_answer_note": "See official answer key",
+              "has_figure": false
+            },
+            {
+              "id": "math_s3_q12",
+              "question_number": 12,
+              "question": "Let ℝ denote the set of all real numbers. Let f: ℝ → ℝ be a function such that f(x) > 0 for all x ∈ ℝ, and f(x + y) = f(x)f(y) for all x, y ∈ ℝ.\nLet the real numbers a₁, a₂, …, a₅₀ be in an arithmetic progression. If f(a₃₁) = 64f(a₂₅), and Σf(aᵢ) [i=1 to 50] = 3(2²⁵ + 1), then the value of Σf(aᵢ) [i=6 to 30] is",
+              "correct_answer": null,
+              "correct_answer_note": "See official answer key",
+              "has_figure": false
+            },
+            {
+              "id": "math_s3_q13",
+              "question_number": 13,
+              "question": "For all x > 0, let y₁(x), y₂(x), and y₃(x) be the functions satisfying\ndy₁/dx − (sin x)² y₁ = 0,  y₁(1) = 5\ndy₂/dx − (cos x)² y₂ = 0,  y₂(1) = 1/3\ndy₃/dx − ((2 − x³)/x³) y₃ = 0,  y₃(1) = 3/(5e)\n\nThen lim(x→0⁺) [y₁(x)y₂(x)y₃(x) + 2x] / [e^(3x) sin x] is equal to",
+              "correct_answer": null,
+              "correct_answer_note": "See official answer key",
+              "has_figure": false
+            }
+          ]
+        },
+        {
+          "section": 4,
+          "title": "Matching List",
+          "marking_scheme": {
+            "correct": 4,
+            "incorrect": -1,
+            "unattempted": 0
+          },
+          "question_type": "matching_single_correct",
+          "questions": [
+            {
+              "id": "math_s4_q14",
+              "question_number": 14,
+              "question": "Consider the following frequency distribution:\n\nValue:     4   5   8   9   6   12  11\nFrequency: 5   f₁  f₂  2   1   1   3\n\nSuppose that the sum of the frequencies is 19 and the median of this frequency distribution is 6.\nFor the given frequency distribution, let α denote the mean deviation about the mean, β denote the mean deviation about the median, and σ² denote the variance.\n\nMatch each entry in List-I to the correct entry in List-II:",
+              "list1": {
+                "P": "7f₁ + 9f₂ is equal to",
+                "Q": "19α is equal to",
+                "R": "19β is equal to",
+                "S": "19σ² is equal to"
+              },
+              "list2": {
+                "1": "146",
+                "2": "47",
+                "3": "48",
+                "4": "145",
+                "5": "55"
+              },
+              "options": {
+                "A": "P→5, Q→3, R→2, S→4",
+                "B": "P→5, Q→2, R→3, S→1",
+                "C": "P→5, Q→3, R→2, S→1",
+                "D": "P→3, Q→2, R→5, S→4"
+              },
+              "correct_answer": "C",
+              "has_figure": false
+            },
+            {
+              "id": "math_s4_q15",
+              "question_number": 15,
+              "question": "Let ℝ denote the set of all real numbers. For a real number x, let [x] denote the greatest integer less than or equal to x. Let n denote a natural number.\n\nMatch each entry in List-I to the correct entry in List-II:",
+              "list1": {
+                "P": "The minimum value of n for which f(x) = [(10x³ − 45x² + 60x + 35)/n] is continuous on [1, 2] is",
+                "Q": "The minimum value of n for which g(x) = (2n² − 13n − 15)(x³ + 3x), x ∈ ℝ, is an increasing function on ℝ, is",
+                "R": "The smallest natural number n greater than 5, such that x = 3 is a point of local minima of h(x) = (x² − 9)ⁿ(x² + 2x + 3), is",
+                "S": "Number of x₀ ∈ ℝ such that l(x) = Σ[k=0 to 4](sin|x − k| + cos|x − k + 1/2|) is NOT differentiable at x₀ is"
+              },
+              "list2": {
+                "1": "8",
+                "2": "9",
+                "3": "5",
+                "4": "6",
+                "5": "10"
+              },
+              "options": {
+                "A": "P→1, Q→3, R→2, S→5",
+                "B": "P→2, Q→1, R→4, S→3",
+                "C": "P→5, Q→1, R→4, S→3",
+                "D": "P→2, Q→3, R→1, S→5"
+              },
+              "correct_answer": "B",
+              "has_figure": false
+            },
+            {
+              "id": "math_s4_q16",
+              "question_number": 16,
+              "question": "Let w⃗ = î + ĵ − 2k̂, and u⃗ and v be two vectors, such that u⃗ × v = w⃗ and v × w⃗ = u⃗. Let α, β, γ, and t be real numbers such that u⃗ = αî + βĵ + γk̂, −tα + β + γ = 0, α − tβ + γ = 0, and α + β − tγ = 0.\n\nMatch each entry in List-I to the correct entry in List-II:",
+              "list1": {
+                "P": "|v|² is equal to",
+                "Q": "If α = √3, then γ² is equal to",
+                "R": "If α = √3, then (β + γ)² is equal to",
+                "S": "If α = √2, then t + 3 is equal to"
+              },
+              "list2": {
+                "1": "0",
+                "2": "1",
+                "3": "2",
+                "4": "3",
+                "5": "5"
+              },
+              "options": {
+                "A": "P→2, Q→1, R→4, S→5",
+                "B": "P→2, Q→4, R→3, S→5",
+                "C": "P→2, Q→1, R→4, S→3",
+                "D": "P→5, Q→4, R→1, S→3"
+              },
+              "correct_answer": "C",
+              "has_figure": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Physics",
+      "sections": [
+        {
+          "section": 1,
+          "title": "Single Correct Answer",
+          "marking_scheme": {
+            "correct": 3,
+            "incorrect": -1,
+            "unattempted": 0
+          },
+          "question_type": "single_correct",
+          "questions": [
+            {
+              "id": "phy_s1_q1",
+              "question_number": 1,
+              "question": "The center of a disk of radius r and mass m is attached to a spring of spring constant k, inside a ring of radius R > r. The other end of the spring is attached on the periphery of the ring. Both the ring and the disk are in the same vertical plane. The disk can only roll along the inside periphery of the ring, without slipping. The spring can only be stretched or compressed along the periphery of the ring, following Hooke's law. In equilibrium, the disk is at the bottom of the ring. Assuming small displacement of the disc, the time period of oscillation of center of mass of the disk is written as T = 2π/ω. The correct expression for ω is (g is the acceleration due to gravity):",
+              "options": {
+                "A": "√[(2/3)(g/(R − r) + k/m)]",
+                "B": "√[2g/(3(R − r)) + k/m]",
+                "C": "√[(1/6)(g/(R − r) + k/m)]",
+                "D": "√[(1/4)(g/(R − r) + k/m)]"
+              },
+              "correct_answer": "A",
+              "has_figure": true,
+              "figure_description": "Disk of radius r inside a ring of radius R, with a spring of constant k connecting the disk center to the ring periphery",
+              "options_are_images": false,
+              "figure_url": "https://raw.githubusercontent.com/venusflytrap606-jpg/jee-advance-images-/main/2025/paper1/2025_sec1_phy_q1_stem_paper1.png"
+            },
+            {
+              "id": "phy_s1_q2",
+              "question_number": 2,
+              "question": "In a scattering experiment, a particle of mass 2m collides with another particle of mass m, which is initially at rest. Assuming the collision to be perfectly elastic, the maximum angular deviation θ of the heavier particle, as shown in the figure, in radians is:",
+              "options": {
+                "A": "π",
+                "B": "tan⁻¹(1/2)",
+                "C": "π/3",
+                "D": "π/6"
+              },
+              "correct_answer": "D",
+              "has_figure": true,
+              "figure_description": "Heavier particle (2m) deflecting at angle θ after elastic collision with lighter particle (m) at rest",
+              "options_are_images": false,
+              "figure_url": "https://raw.githubusercontent.com/venusflytrap606-jpg/jee-advance-images-/main/2025/paper1/2025_sec1_phy_q2_stem_paper1.png"
+            },
+            {
+              "id": "phy_s1_q3",
+              "question_number": 3,
+              "question": "A conducting square loop initially lies in the XZ plane with its lower edge hinged along the X-axis. Only in the region y ≥ 0, there is a time dependent magnetic field pointing along the Z-direction, B⃗(t) = B₀(cos ωt)k̂, where B₀ is a constant. The magnetic field is zero everywhere else. At time t = 0, the loop starts rotating with constant angular speed ω about the X axis in the clockwise direction as viewed from the +X axis. Ignoring self-inductance of the loop and gravity, which of the following plots correctly represents the induced e.m.f. (V) in the loop as a function of time?",
+              "options": {
+                "A": "Option A",
+                "B": "Option B",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correct_answer": "A",
+              "has_figure": true,
+              "figure_description": "Conducting square loop rotating about X-axis in time-dependent magnetic field along Z-direction",
+              "options_are_images": true,
+              "options_image_url": "https://raw.githubusercontent.com/venusflytrap606-jpg/jee-advance-images-/main/2025/paper1/2025_sec1_phy_q3_opt_paper1.png",
+              "options_image_alt": "Four V-t plots (A-D) showing induced EMF vs time for a rotating conducting square loop in a time-dependent magnetic field",
+              "figure_url": "https://raw.githubusercontent.com/venusflytrap606-jpg/jee-advance-images-/main/2025/paper1/2025_sec1_phy_q3_stem_paper1.png"
+            },
+            {
+              "id": "phy_s1_q4",
+              "question_number": 4,
+              "question": "Figure 1 shows the configuration of main scale and Vernier scale before measurement. Fig. 2 shows the configuration corresponding to the measurement of diameter D of a tube. The measured value of D is:",
+              "options": {
+                "A": "0.12 cm",
+                "B": "0.11 cm",
+                "C": "0.13 cm",
+                "D": "0.14 cm"
+              },
+              "correct_answer": "C",
+              "has_figure": true,
+              "figure_description": "Vernier caliper scale diagrams: Fig. 1 (zero reading) and Fig. 2 (measurement of tube diameter)",
+              "options_are_images": false,
+              "figure_url": "https://raw.githubusercontent.com/venusflytrap606-jpg/jee-advance-images-/main/2025/paper1/2025_sec1_phy_q4_stem_paper1.png"
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "title": "One or More Correct Answers",
+          "marking_scheme": {
+            "all_correct": 4,
+            "partial_3_of_4_correct": 3,
+            "partial_2_chosen_both_correct": 2,
+            "partial_1_chosen_correct": 1,
+            "incorrect": -2,
+            "unattempted": 0
+          },
+          "question_type": "multi_correct",
+          "questions": [
+            {
+              "id": "phy_s2_q5",
+              "question_number": 5,
+              "question": "A conducting square loop of side L, mass M and resistance R is moving in the XY plane with its edges parallel to the X and Y axes. The region y ≥ 0 has a uniform magnetic field B⃗ = B₀k̂. The magnetic field is zero everywhere else. At time t = 0, the loop starts to enter the magnetic field with an initial velocity v₀ĵ m/s. Considering the quantity K = B₀²L²/(RM) in appropriate units, ignoring self-inductance of the loop and gravity, which of the following statements is/are correct:",
+              "options": {
+                "A": "If v₀ = 1.5KL, the loop will stop before it enters completely inside the region of magnetic field.",
+                "B": "When the complete loop is inside the region of magnetic field, the net force acting on the loop is zero.",
+                "C": "If v₀ = KL/10, the loop comes to rest at t = (1/K) ln(5/2).",
+                "D": "If v₀ = 3KL, the complete loop enters inside the region of magnetic field at time t = (1/K) ln(3/2)."
+              },
+              "correct_answer": [
+                "B",
+                "D"
+              ],
+              "has_figure": true,
+              "figure_description": "Square conducting loop entering magnetic field region y ≥ 0 with initial velocity v₀ĵ",
+              "options_are_images": false,
+              "figure_url": "https://raw.githubusercontent.com/venusflytrap606-jpg/jee-advance-images-/main/2025/paper1/2025_sec2_phy_q5_stem_paper1.png"
+            },
+            {
+              "id": "phy_s2_q6",
+              "question_number": 6,
+              "question": "Length, breadth and thickness of a strip having a uniform cross section are measured to be 10.5 cm, 0.05 mm, and 6.0 μm, respectively. Which of the following option(s) give(s) the volume of the strip in cm³ with correct significant figures:",
+              "options": {
+                "A": "3.2 × 10⁻⁵",
+                "B": "32.0 × 10⁻⁶",
+                "C": "3.0 × 10⁻⁵",
+                "D": "3 × 10⁻⁵"
+              },
+              "correct_answer": [
+                "D"
+              ],
+              "has_figure": false
+            },
+            {
+              "id": "phy_s2_q7",
+              "question_number": 7,
+              "question": "Consider a system of three connected strings, S₁, S₂ and S₃ with uniform linear mass densities μ kg/m, 4μ kg/m and 16μ kg/m, respectively. S₁ and S₂ are connected at the point P, whereas S₂ and S₃ are connected at the point Q, and the other end of S₃ is connected to a wall. A wave generator O is connected to the free end of S₁. The wave from the generator is represented by y = y₀ cos(ωt − kx) cm. Which of the following statements is/are correct:",
+              "options": {
+                "A": "When the wave reflects from P for the first time, the reflected wave is represented by y = α₁y₀ cos(ωt + kx + π) cm, where α₁ is a positive constant.",
+                "B": "When the wave transmits through P for the first time, the transmitted wave is represented by y = α₂y₀ cos(ωt − kx) cm, where α₂ is a positive constant.",
+                "C": "When the wave reflects from Q for the first time, the reflected wave is represented by y = α₃y₀ cos(ωt − kx + π) cm, where α₃ is a positive constant.",
+                "D": "When the wave transmits through Q for the first time, the transmitted wave is represented by y = α₄y₀ cos(ωt − 4kx) cm, where α₄ is a positive constant."
+              },
+              "correct_answer": [
+                "A",
+                "D"
+              ],
+              "has_figure": true,
+              "figure_description": "Three strings S₁ (μ), S₂ (4μ), S₃ (16μ) connected in series with wave generator at free end of S₁",
+              "options_are_images": false,
+              "figure_url": "https://raw.githubusercontent.com/venusflytrap606-jpg/jee-advance-images-/main/2025/paper1/2025_sec2_phy_q7_stem_paper1.png"
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "title": "Numerical Answer Type",
+          "marking_scheme": {
+            "correct": 4,
+            "incorrect": 0,
+            "unattempted": 0
+          },
+          "question_type": "numerical",
+          "questions": [
+            {
+              "id": "phy_s3_q8",
+              "question_number": 8,
+              "question": "A person sitting inside an elevator performs a weighing experiment with an object of mass 50 kg. Suppose that the variation of the height y (in m) of the elevator, from the ground, with time t (in s) is given by y = 8[1 + sin(2πt/T)], where T = 40π s. Taking acceleration due to gravity, g = 10 m/s², the maximum variation of the object's weight (in N) as observed in the experiment is",
+              "correct_answer": 2,
+              "has_figure": false
+            },
+            {
+              "id": "phy_s3_q9",
+              "question_number": 9,
+              "question": "A cube of unit volume contains 35 × 10⁷ photons of frequency 10¹⁵ Hz. If the energy of all the photons is viewed as the average energy being contained in the electromagnetic waves within the same volume, then the amplitude of the magnetic field is α × 10⁻⁹ T. Taking μ₀ = 4π × 10⁻⁷ Tm/A, h = 6 × 10⁻³⁴ Js and π = 22/7, the value of α is",
+              "correct_answer": null,
+              "correct_answer_note": "See official answer key",
+              "has_figure": false
+            },
+            {
+              "id": "phy_s3_q10",
+              "question_number": 10,
+              "question": "Two identical plates P and Q, radiating as perfect black bodies, are kept in vacuum at constant absolute temperatures T_P and T_Q, respectively, with T_Q < T_P. The radiated power transferred per unit area from P to Q is W₀. Subsequently, two more plates, identical to P and Q, are introduced between P and Q. Assume that heat transfer takes place only between adjacent plates. If the power transferred per unit area in the direction from P to Q in the steady state is W_S, then the ratio W₀/W_S is",
+              "correct_answer": 3,
+              "has_figure": true,
+              "figure_description": "Two black body plates P (at T_P) and Q (at T_Q), then with two intermediate plates inserted between them",
+              "options_are_images": false,
+              "figure_url": "https://raw.githubusercontent.com/venusflytrap606-jpg/jee-advance-images-/main/2025/paper1/2025_sec3_phy_q10_stem_paper1.png"
+            },
+            {
+              "id": "phy_s3_q11",
+              "question_number": 11,
+              "question": "A solid glass sphere of refractive index n = √3 and radius R contains a spherical air cavity of radius R/2. A very thin glass layer is present at the point O so that the air cavity (refractive index n = 1) remains inside the glass sphere. An unpolarized, unidirectional and monochromatic light source S emits a light ray from a point inside the glass sphere towards the periphery of the glass sphere. If the light is reflected from the point O and is fully polarized, then the angle of incidence at the inner surface of the glass sphere is θ. The value of sin θ is",
+              "correct_answer": "0.5 or 0.75",
+              "has_figure": true,
+              "figure_description": "Glass sphere (n=√3, radius R) with spherical air cavity (n=1, radius R/2) and light source S inside the glass",
+              "options_are_images": false,
+              "figure_url": "https://raw.githubusercontent.com/venusflytrap606-jpg/jee-advance-images-/main/2025/paper1/2025_sec3_phy_q11_stem_paper1.png"
+            },
+            {
+              "id": "phy_s3_q12",
+              "question_number": 12,
+              "question": "A single slit diffraction experiment is performed to determine the slit width using the equation bd/D = mλ, where b is the slit width, D the shortest distance between the slit and the screen, d the distance between the m-th diffraction maximum and the central maximum, and λ is the wavelength. D and d are measured with scales of least count of 1 cm and 1 mm, respectively. The values of λ and m are known precisely to be 600 nm and 3, respectively. The absolute error (in μm) in the value of b estimated using the diffraction maximum that occurs for m = 3 with d = 5 mm and D = 1 m is",
+              "correct_answer": null,
+              "correct_answer_note": "See official answer key",
+              "has_figure": false
+            },
+            {
+              "id": "phy_s3_q13",
+              "question_number": 13,
+              "question": "Consider an electron in the n = 3 orbit of a hydrogen-like atom with atomic number Z. At absolute temperature T, a neutron having thermal energy k_B T has the same de Broglie wavelength as that of this electron. If this temperature is given by T = Z²h²/(απ²a₀²m_N k_B), where h is the Planck's constant, k_B is the Boltzmann constant, m_N is the mass of the neutron and a₀ is the first Bohr radius of hydrogen atom, then the value of α is",
+              "correct_answer": null,
+              "correct_answer_note": "See official answer key",
+              "has_figure": false
+            }
+          ]
+        },
+        {
+          "section": 4,
+          "title": "Matching List",
+          "marking_scheme": {
+            "correct": 4,
+            "incorrect": -1,
+            "unattempted": 0
+          },
+          "question_type": "matching_single_correct",
+          "questions": [
+            {
+              "id": "phy_s4_q14",
+              "question_number": 14,
+              "question": "List-I shows four configurations, each consisting of a pair of ideal electric dipoles. Each dipole has a dipole moment of magnitude p, oriented as marked by arrows in the figures. In all the configurations the dipoles are fixed such that they are at a distance 2r apart along the x direction. The midpoint of the line joining the two dipoles is X. Match the configurations in List-I with the resultant electric fields E⃗ at X given in List-II.",
+              "list1": {
+                "P": "Configuration P (see image)",
+                "Q": "Configuration Q (see image)",
+                "R": "Configuration R (see image)",
+                "S": "Configuration S (see image)"
+              },
+              "list2": {
+                "1": "E⃗ = 0",
+                "2": "E⃗ = −p/(2πε₀r³) ĵ",
+                "3": "E⃗ = −p/(4πε₀r³)(î − ĵ)",
+                "4": "E⃗ = p/(4πε₀r³)(2î − ĵ)",
+                "5": "E⃗ = p/(πε₀r³) î"
+              },
+              "options": {
+                "A": "P→3, Q→1, R→2, S→4",
+                "B": "P→4, Q→5, R→3, S→1",
+                "C": "P→2, Q→1, R→4, S→5",
+                "D": "P→2, Q→1, R→3, S→5"
+              },
+              "correct_answer": "C",
+              "has_figure": true,
+              "figure_description": "Four configurations of electric dipole pairs with different orientations along x-axis",
+              "list1_options_are_images": true,
+              "list1_image_url": "https://raw.githubusercontent.com/venusflytrap606-jpg/jee-advance-images-/main/2025/paper1/2025_sec4_phy_q14_full_paper1.png",
+              "list1_image_alt": "Four electric dipole pair configurations (P, Q, R, S) showing dipoles oriented along different directions, separated by 2r along x-axis",
+              "list2_options_are_images": false,
+              "figure_url": "https://raw.githubusercontent.com/venusflytrap606-jpg/jee-advance-images-/main/2025/paper1/2025_sec4_phy_q14_full_paper1.png"
+            },
+            {
+              "id": "phy_s4_q15",
+              "question_number": 15,
+              "question": "A circuit with an electrical load having impedance Z is connected with an AC source V(t) = 300 sin(400t) V. List-I shows various options for the load. Match the correct current i(t) from List-II.",
+              "list1": {
+                "P": "Load P (see image)",
+                "Q": "Load Q (see image)",
+                "R": "Load R (see image)",
+                "S": "Load S (see image)"
+              },
+              "list2": {
+                "1": "Graph 1 (see image)",
+                "2": "Graph 2 (see image)",
+                "3": "Graph 3 (see image)",
+                "4": "Graph 4 (see image)",
+                "5": "Graph 5 (see image)"
+              },
+              "options": {
+                "A": "P→3, Q→5, R→2, S→1",
+                "B": "P→1, Q→5, R→2, S→3",
+                "C": "P→3, Q→4, R→2, S→1",
+                "D": "P→1, Q→4, R→2, S→5"
+              },
+              "correct_answer": "A",
+              "has_figure": true,
+              "figure_description": "AC circuit diagrams with different load configurations (R, RL, RLC) and corresponding current waveform graphs",
+              "list1_options_are_images": true,
+              "list1_image_url": "https://raw.githubusercontent.com/venusflytrap606-jpg/jee-advance-images-/main/2025/paper1/2025_sec4_phy_q15_full_paper1.png",
+              "list1_image_alt": "Four AC circuit load configurations (P-S): P=30Ω resistor, Q=30Ω+100mH, R=50μF+30Ω+25mH, S=50μF+60Ω+125mH",
+              "list2_options_are_images": true,
+              "list2_image_url": "https://raw.githubusercontent.com/venusflytrap606-jpg/jee-advance-images-/main/2025/paper1/2025_sec4_phy_q15_full_paper1.png",
+              "list2_image_alt": "Five current i(t) waveform graphs (1-5) showing different amplitudes and phase relationships for AC circuit",
+              "figure_url": "https://raw.githubusercontent.com/venusflytrap606-jpg/jee-advance-images-/main/2025/paper1/2025_sec4_phy_q15_stem_paper1.png"
+            },
+            {
+              "id": "phy_s4_q16",
+              "question_number": 16,
+              "question": "List-I shows various functional dependencies of energy (E) on the atomic number (Z). Match the energies associated with the phenomena given in List-II.",
+              "list1": {
+                "P": "E ∝ Z²",
+                "Q": "E ∝ (Z − 1)²",
+                "R": "E ∝ Z(Z − 1)",
+                "S": "E is practically independent of Z"
+              },
+              "list2": {
+                "1": "Energy of characteristic x-rays",
+                "2": "Electrostatic part of the nuclear binding energy for stable nuclei with mass numbers in the range 30 to 170",
+                "3": "Energy of continuous x-rays",
+                "4": "Average nuclear binding energy per nucleon for stable nuclei with mass number in the range 30 to 170",
+                "5": "Energy of radiation due to electronic transitions from hydrogen-like atoms"
+              },
+              "options": {
+                "A": "P→4, Q→3, R→1, S→2",
+                "B": "P→5, Q→2, R→1, S→4",
+                "C": "P→5, Q→1, R→2, S→4",
+                "D": "P→3, Q→2, R→1, S→5"
+              },
+              "correct_answer": "C",
+              "has_figure": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Chemistry",
+      "sections": [
+        {
+          "section": 1,
+          "title": "Single Correct Answer",
+          "marking_scheme": {
+            "correct": 3,
+            "incorrect": -1,
+            "unattempted": 0
+          },
+          "question_type": "single_correct",
+          "questions": [
+            {
+              "id": "chem_s1_q1",
+              "question_number": 1,
+              "question": "The heating of NH₄NO₂ at 60−70 °C and NH₄NO₃ at 200−250 °C is associated with the formation of nitrogen containing compounds X and Y, respectively. X and Y, respectively, are",
+              "options": {
+                "A": "N₂ and N₂O",
+                "B": "NH₃ and NO₂",
+                "C": "NO and N₂O",
+                "D": "N₂ and NH₃"
+              },
+              "correct_answer": "A",
+              "has_figure": false
+            },
+            {
+              "id": "chem_s1_q2",
+              "question_number": 2,
+              "question": "The correct order of the wavelength maxima of the absorption band in the ultraviolet-visible region for the given complexes is",
+              "options": {
+                "A": "[Co(CN)₆]³⁻ < [Co(NH₃)₆]³⁺ < [Co(NH₃)₅(H₂O)]³⁺ < [Co(NH₃)₅(Cl)]²⁺",
+                "B": "[Co(NH₃)₅(Cl)]²⁺ < [Co(NH₃)₅(H₂O)]³⁺ < [Co(NH₃)₆]³⁺ < [Co(CN)₆]³⁻",
+                "C": "[Co(CN)₆]³⁻ < [Co(NH₃)₅(Cl)]²⁺ < [Co(NH₃)₅(H₂O)]³⁺ < [Co(NH₃)₆]³⁺",
+                "D": "[Co(NH₃)₆]³⁺ < [Co(CN)₆]³⁻ < [Co(NH₃)₅(Cl)]²⁺ < [Co(NH₃)₅(H₂O)]³⁺"
+              },
+              "correct_answer": "B",
+              "has_figure": false
+            },
+            {
+              "id": "chem_s1_q3",
+              "question_number": 3,
+              "question": "One of the products formed from the reaction of permanganate ion with iodide ion in neutral aqueous medium is",
+              "options": {
+                "A": "I₂",
+                "B": "IO₃⁻",
+                "C": "IO₄⁻",
+                "D": "IO₂⁻"
+              },
+              "correct_answer": "B",
+              "has_figure": false
+            },
+            {
+              "id": "chem_s1_q4",
+              "question_number": 4,
+              "question": "Consider the depicted hydrogen (H) in the hydrocarbons given below. The most acidic hydrogen (H) is",
+              "options": {
+                "A": "Option A",
+                "B": "Option B",
+                "C": "Option C",
+                "D": "Option D"
+              },
+              "correct_answer": "B",
+              "has_figure": true,
+              "figure_description": "Four hydrocarbon structures (A-D) showing different cyclopentadiene derivatives with marked H atoms",
+              "options_are_images": true,
+              "options_image_url": "https://raw.githubusercontent.com/venusflytrap606-jpg/jee-advance-images-/main/2025/paper1/2025_sec1_chem_q4_opt_paper1.png",
+              "options_image_alt": "Four cyclopentadiene-type hydrocarbon structures (A-D) with different substituents, each with a marked H atom whose acidity is to be compared"
+            }
+          ]
+        },
+        {
+          "section": 2,
+          "title": "One or More Correct Answers",
+          "marking_scheme": {
+            "all_correct": 4,
+            "partial_3_of_4_correct": 3,
+            "partial_2_chosen_both_correct": 2,
+            "partial_1_chosen_correct": 1,
+            "incorrect": -2,
+            "unattempted": 0
+          },
+          "question_type": "multi_correct",
+          "questions": [
+            {
+              "id": "chem_s2_q5",
+              "question_number": 5,
+              "question": "Regarding the molecular orbital (MO) energy levels for homonuclear diatomic molecules, the INCORRECT statement(s) is(are)",
+              "options": {
+                "A": "Bond order of Ne₂ is zero.",
+                "B": "The highest occupied molecular orbital (HOMO) of F₂ is σ-type.",
+                "C": "Bond energy of O₂⁺ is smaller than the bond energy of O₂.",
+                "D": "Bond length of Li₂ is larger than the bond length of B₂."
+              },
+              "correct_answer": [
+                "B",
+                "C"
+              ],
+              "has_figure": false
+            },
+            {
+              "id": "chem_s2_q6",
+              "question_number": 6,
+              "question": "The pair(s) of diamagnetic ions is(are)",
+              "options": {
+                "A": "La³⁺, Ce⁴⁺",
+                "B": "Yb²⁺, Lu³⁺",
+                "C": "La²⁺, Ce³⁺",
+                "D": "Yb³⁺, Lu²⁺"
+              },
+              "correct_answer": [
+                "A",
+                "B"
+              ],
+              "has_figure": false
+            },
+            {
+              "id": "chem_s2_q7",
+              "question_number": 7,
+              "question": "For the reaction sequence given below:\nCyclopentyl bromide + HBr → P (Finkelstein reaction) → Q\n                              ↓ (Swarts reaction)\n                              R\n(X is any atom other than carbon and hydrogen, and it is different in P, Q and R)\nThe correct statement(s) is(are)",
+              "options": {
+                "A": "C−X bond length in P, Q and R follows the order Q > R > P.",
+                "B": "C−X bond enthalpy in P, Q and R follows the order R > P > Q.",
+                "C": "Relative reactivity toward SN2 reaction in P, Q and R follows the order P > R > Q.",
+                "D": "pKa value of the conjugate acids of the leaving groups in P, Q and R follows the order R > Q > P."
+              },
+              "correct_answer": [
+                "B"
+              ],
+              "has_figure": true,
+              "figure_description": "Reaction sequence: cyclopentyl group + HBr → P (bromide), P → Q via Finkelstein reaction (iodide), P → R via Swarts reaction (fluoride)",
+              "options_are_images": false,
+              "figure_url": "https://raw.githubusercontent.com/venusflytrap606-jpg/jee-advance-images-/main/2025/paper1/2025_sec2_chem_q7_stem_paper1.png"
+            }
+          ]
+        },
+        {
+          "section": 3,
+          "title": "Numerical Answer Type",
+          "marking_scheme": {
+            "correct": 4,
+            "incorrect": 0,
+            "unattempted": 0
+          },
+          "question_type": "numerical",
+          "questions": [
+            {
+              "id": "chem_s3_q8",
+              "question_number": 8,
+              "question": "In an electrochemical cell, dichromate ions in aqueous acidic medium are reduced to Cr³⁺. The current (in amperes) that flows through the cell for 48.25 minutes to produce 1 mole of Cr³⁺ is ______.\n(Use: 1 Faraday = 96500 C mol⁻¹)",
+              "correct_answer": 100,
+              "has_figure": false
+            },
+            {
+              "id": "chem_s3_q9",
+              "question_number": 9,
+              "question": "At 25 °C, the concentration of H⁺ ions in 1.00 × 10⁻³ M aqueous solution of a weak monobasic acid having acid dissociation constant (Ka) of 4.00 × 10⁻¹¹ is X × 10⁻⁷ M. The value of X is ______.\n(Use: Kw = 1.00 × 10⁻¹⁴ at 25 °C)",
+              "correct_answer": 2,
+              "has_figure": false
+            },
+            {
+              "id": "chem_s3_q10",
+              "question_number": 10,
+              "question": "Molar volume (Vm) of a van der Waals gas can be calculated by expressing the van der Waals equation as a cubic equation with Vm as the variable. The ratio (in mol dm⁻³) of the coefficient of Vm² to the coefficient of Vm for a gas having van der Waals constants a = 6.0 dm⁶ atm mol⁻² and b = 0.060 dm³ mol⁻¹ at 300 K and 300 atm is ______.\n(Use: R = 0.082 dm³ atm mol⁻¹ K⁻¹)",
+              "correct_answer": null,
+              "correct_answer_note": "See official answer key",
+              "has_figure": false
+            },
+            {
+              "id": "chem_s3_q11",
+              "question_number": 11,
+              "question": "Considering ideal gas behavior, the expansion work done (in kJ) when 144 g of water is electrolyzed completely under constant pressure at 300 K is ______.\n(Use: R = 8.3 J K⁻¹ mol⁻¹; Atomic mass: H = 1, O = 16)",
+              "correct_answer": null,
+              "correct_answer_note": "See official answer key",
+              "has_figure": false
+            },
+            {
+              "id": "chem_s3_q12",
+              "question_number": 12,
+              "question": "The monomer (X) involved in the synthesis of Nylon 6,6 gives positive carbylamine test. If 10 moles of X are analyzed using Dumas method, the amount (in grams) of nitrogen gas evolved is ______.\n(Use: Atomic mass of N = 14 amu)",
+              "correct_answer": 140,
+              "has_figure": false
+            },
+            {
+              "id": "chem_s3_q13",
+              "question_number": 13,
+              "question": "The reaction sequence is carried out with 16 moles of X (a bromo-aryl compound, molar mass 210). Steps: (i) Na, dry ether; (ii) H₃O⁺ → P (100% yield) → (i) NaOH, Δ; (ii) H₃O⁺ → Q (50%) → (i) NaOH, CaO; (ii) Δ → R (50%) → PBr₃, (C₂H₅)₂O → T (50%) → NaH, (C₂H₅)₂O → S (50%). The amount (in grams) of S produced is ______.\n(Use: Atomic mass: H = 1, C = 12, O = 16, Br = 80)",
+              "correct_answer": 175,
+              "has_figure": true,
+              "figure_description": "Multi-step organic reaction sequence starting from bromo-aryl acetal compound X (MW 210)",
+              "options_are_images": false,
+              "figure_url": "https://raw.githubusercontent.com/venusflytrap606-jpg/jee-advance-images-/main/2025/paper1/2025_sec3_chem_q13_stem_paper1.png"
+            }
+          ]
+        },
+        {
+          "section": 4,
+          "title": "Matching List",
+          "marking_scheme": {
+            "correct": 4,
+            "incorrect": -1,
+            "unattempted": 0
+          },
+          "question_type": "matching_single_correct",
+          "questions": [
+            {
+              "id": "chem_s4_q14",
+              "question_number": 14,
+              "question": "The correct match of the group reagents in List-I for precipitating the metal ion given in List-II from solutions is:",
+              "list1": {
+                "P": "Passing H₂S in the presence of NH₄OH",
+                "Q": "(NH₄)₂CO₃ in the presence of NH₄OH",
+                "R": "NH₄OH in the presence of NH₄Cl",
+                "S": "Passing H₂S in the presence of dilute HCl"
+              },
+              "list2": {
+                "1": "Cu²⁺",
+                "2": "Al³⁺",
+                "3": "Mn²⁺",
+                "4": "Ba²⁺",
+                "5": "Mg²⁺"
+              },
+              "options": {
+                "A": "P→3, Q→4, R→2, S→1",
+                "B": "P→4, Q→2, R→3, S→1",
+                "C": "P→3, Q→4, R→1, S→5",
+                "D": "P→5, Q→3, R→2, S→4"
+              },
+              "correct_answer": "A",
+              "has_figure": false
+            },
+            {
+              "id": "chem_s4_q15",
+              "question_number": 15,
+              "question": "The major products obtained from the reactions in List-II are the reactants for the named reactions mentioned in List-I. Match each entry in List-I with the appropriate entry in List-II:",
+              "list1": {
+                "P": "Stephen reaction",
+                "Q": "Sandmeyer reaction",
+                "R": "Hoffmann bromamide degradation reaction",
+                "S": "Cannizzaro reaction"
+              },
+              "list2": {
+                "1": "Toluene → (i) CrO₂Cl₂/CS₂, (ii) H₃O⁺ → product",
+                "2": "Benzoic acid → (i) PCl₅, (ii) NH₃, (iii) P₄O₁₀, Δ → product",
+                "3": "Nitrobenzene → (i) Fe, HCl, (ii) HCl, NaNO₂ (273−278 K), H₂O → product",
+                "4": "Toluene → (i) Cl₂/hν, H₂O, (ii) Tollen's reagent, (iii) SO₂Cl₂, (iv) NH₃ → product",
+                "5": "Aniline → (i) (CH₃CO)₂O, Pyridine, (ii) HNO₃, H₂SO₄ 288 K, (iii) aq. NaOH → product"
+              },
+              "options": {
+                "A": "P→2, Q→4, R→1, S→3",
+                "B": "P→2, Q→3, R→4, S→1",
+                "C": "P→5, Q→3, R→4, S→2",
+                "D": "P→5, Q→4, R→2, S→1"
+              },
+              "correct_answer": "B",
+              "has_figure": true,
+              "figure_description": "Organic reaction sequences in List-II producing intermediates for named reactions in List-I",
+              "options_are_images": false
+            },
+            {
+              "id": "chem_s4_q16",
+              "question_number": 16,
+              "question": "Match the compounds in List-I with the appropriate observations in List-II:",
+              "list1": {
+                "P": "Compound P (see image)",
+                "Q": "Compound Q (see image)",
+                "R": "Compound R (see image)",
+                "S": "Compound S (see image)"
+              },
+              "list2": {
+                "1": "Reaction with phenyl diazonium salt gives yellow dye.",
+                "2": "Reaction with ninhydrin gives purple color and it also reacts with FeCl₃ to give violet color.",
+                "3": "Reaction with glucose will give corresponding hydrazone.",
+                "4": "Lassaigne extract of the compound treated with dilute HCl followed by addition of aqueous FeCl₃ gives blood red color.",
+                "5": "After complete hydrolysis, it will give ninhydrin test and it DOES NOT give positive phthalein dye test."
+              },
+              "options": {
+                "A": "P→1, Q→5, R→4, S→2",
+                "B": "P→2, Q→5, R→1, S→3",
+                "C": "P→5, Q→2, R→1, S→4",
+                "D": "P→2, Q→1, R→5, S→3"
+              },
+              "correct_answer": "B",
+              "has_figure": true,
+              "figure_description": "Four organic compound structures: (P) tyrosine-type methyl ester, (Q) N-acyl amino acid methyl ester, (R) aniline hydrochloride, (S) phenylhydrazine",
+              "list1_options_are_images": true,
+              "list1_image_url": "https://raw.githubusercontent.com/venusflytrap606-jpg/jee-advance-images-/main/2025/paper1/2025_sec4_chem_q16_full_paper1.png",
+              "list1_image_alt": "Four organic compound structures (P-S): P=tyrosine-type methyl ester with free NH₂, Q=N-acyl amino acid methyl ester, R=aniline hydrochloride (Ph-NH₃⁺Cl⁻), S=phenylhydrazine (Ph-NHNH₂)",
+              "list2_options_are_images": false,
+              "figure_url": "https://raw.githubusercontent.com/venusflytrap606-jpg/jee-advance-images-/main/2025/paper1/2025_sec4_chem_q16_full_paper1.png"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "total_questions": 48,
+    "total_marks": 180,
+    "duration_minutes": 180,
+    "note_on_answers": "Some numerical answers from Section 3 are marked null where official keys were not fully visible in the source document. Physics Q8: answer confirmed as 2 N. Physics Q10: answer confirmed as 3. Physics Q11: answer confirmed as 0.5 or 0.75. Chem Q8: 100 A. Chem Q9: 2. Chem Q12: 140 g. Chem Q13: 175 g.",
+    "figure_note": "Questions with has_figure=true contain diagrams that were present in the original PDF. The figure_description field provides a text description. For a production app, store actual image paths in a 'figure_url' field.",
+    "source": "JEE Advanced 2025 Paper 1 official question paper"
+  }
+}
